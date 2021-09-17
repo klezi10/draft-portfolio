@@ -25,6 +25,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  margin-bottom: 40px;
 }
 
 p {
@@ -34,7 +35,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+
   justify-content: center;
 }
 
@@ -87,4 +88,43 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .project-images {
+    display: none;
+  }
+
+  .project-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .about-me-projects {
+    margin-top: 20px;
+  }
+  .text-start {
+    text-align: center !important;
+  }
+  p {
+    text-align: center;
+  }
 }
